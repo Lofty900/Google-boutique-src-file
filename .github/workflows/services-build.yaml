@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: docker.io
-  IMAGE_NAMESPACE: "08161684557"
+  IMAGE_NAMESPACE: 08161684557
 
 jobs:
 
