@@ -5,6 +5,7 @@ on:
     branches:
       - main
 
+
 env:
   REGISTRY: docker.io
   IMAGE_NAMESPACE: "08161684557"
@@ -54,3 +55,5 @@ jobs:
         tags: |
           ${{ env.IMAGE_NAMESPACE }}/google-boutique-microservice-${{ matrix.service }}:1.0.0
           ${{ env.IMAGE_NAMESPACE }}/google-boutique-microservice-${{ matrix.service }}:latest
+
+# victor          
