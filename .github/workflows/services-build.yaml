@@ -24,7 +24,6 @@ jobs:
           - loadgenerator
           - productcatalogservice
           - shippingservice
-          - cartservice
           - currencyservice
           - frontend
           - paymentservice
@@ -59,7 +58,7 @@ jobs:
     - name: Build and Push Image
       uses: docker/build-push-action@v5
       with:
-        context: .
+        context: .src/cartservice
         file: src/cartservice/src/Dockerfile
         push: true
         tags: |
